@@ -1,0 +1,55 @@
+<!--
+:contains("text")    匹配含有text内容
+:empty               匹配内容为空
+:has("selector")                 匹配包含有selector
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <style>
+        #d5{
+            width: 200px;
+            height: 200px;
+            background: red;
+            display: none;
+        }
+
+        #d1{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+</div>
+<div id="d2">
+    This is div2...
+</div>
+<div id="d3">
+</div>
+<div id="d4">
+    <p>444</p>
+    This is div4...
+</div>
+<div id="d5"></div>
+
+
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // $("div:contains('This is div2')").css({background: "red"});
+        // console.log($("div:empty"));
+        // $("div:has(p)").css({background: "red"});
+        // $("div:parent").css({background: "red"})
+        $("#d5").show(5000);
+        $("#d1").hide(5000);
+    });
+</script>
+</body>
+</html>

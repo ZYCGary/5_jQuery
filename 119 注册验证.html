@@ -1,0 +1,97 @@
+<!--
+1. 鼠标放入email框会弹出提示，字体灰色
+2. 鼠标离开会检测用户填写的信息，错误字体红色，正确是对勾图片
+3. 提交时要检测输入内容
+4. 检测全部正确就提交
+3. 再次确认密码
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function check_submit() {
+            if (check_email() == true && check_pwd == true && check_cpwd() == true) return true;
+            else return false;
+        }
+
+        function focus_email() {
+            // 获得Email提示信息(email-msg)
+            var obj = document.getElementById("email_msg");
+            obj.innerHTML = "Please keep this email safe";
+            obj.className = "msg_tip";
+
+        }
+
+        function check_email() {
+            var email = document.getElementById("email").value;
+            var msg = document.getElementById("email_msg");
+            if (email == "") {
+                msg.innerHTML = "Email could not be null";
+                msg.className = "msg_error";
+9                return false;
+            } else if (email.indexOf("@") == -1) {
+                msg.innerHTML = "Email must contain \"@\"";
+                msg.className = "msg_error";
+                return false;
+            } else {
+                msg.innerHTML = "Email set successfully";
+                msg.className = "msg_success";
+                return true;
+            }
+        }
+
+        function check_pwd() {
+
+        }
+
+        function check_cpwd() {
+
+        }
+    </script>
+
+    <style>
+        .msg_tip {
+            color: gray;
+        }
+
+        .msg_error {
+            color: red;
+            background: orange;
+        }
+
+        .msg_success {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<form action="register.php" method="post" id="my_form" onsubmit="return check_submit()">
+    <dl>
+        <dt><label for="email">Email: </label></dt>
+        <dd>
+            <input type="text" id="email" onfocus="focus_email()" onblur="check_email()">
+        </dd>
+        <dd>
+            <span id="email_msg"></span>
+        </dd>
+
+        <dt><label for="pwd">Password: </label></dt>
+        <dd>
+            <input type="text" id="pwd" onfocus="focus_pwd()" onblur="check_pwd()">
+        </dd>
+        <dt><label for="confirm_pwd">Confirm Password: </label></dt>
+        <dd>
+            <input type="text" id="confirm_pwd">
+        </dd>
+        <dt></dt>
+        <dt></dt>
+    </dl>
+    <div>
+        <input type="submit" id="register_btn" value="REGISTER">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!--
+选择器：选择页面元素的工具
+    1. 基本选择器(CSS2选择器)：
+        #id
+        element
+        .class
+        复合: element, .class, element
+    2. 层级选择器
+        ancestor descendant
+        parent>child
+        prev+next       下一个兄弟
+        prev~siblings   之后所有的兄弟
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div>
+    <p>
+        p Tag
+        <a href="#">a in p</a>
+    </p>
+    <a href="#">a Link</a>
+</div>
+<div>
+    <ul>
+        <li id="li1">a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+</div>
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // $("div a").css({background: "red"});
+        // $("div>a").css({background: "red"});
+        // $("div>ul>li").css({background: "red"});
+        // $("#li1+").css({background: "red"});
+        // $("#li1~").css({background: "red"});
+    });
+</script>
+</body>
+</html>
