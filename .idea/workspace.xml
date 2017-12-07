@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bff79f4c-eadc-4e49-9ba3-30c55f70ca29" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/109 弹窗.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/109_1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/110 下拉菜单.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/111 固定广告.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/112 登陆验证.html" />
+      <change beforePath="$PROJECT_DIR$/109 弹窗.html" afterPath="$PROJECT_DIR$/109 弹窗.html" />
+      <change beforePath="$PROJECT_DIR$/112 登陆验证.html" afterPath="$PROJECT_DIR$/112 登陆验证.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="109 弹窗.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="109 弹窗.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/109 弹窗.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="112 登陆验证.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="112 登陆验证.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/112 登陆验证.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="342">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -91,6 +87,7 @@
         <option value="$PROJECT_DIR$/110 下拉菜单.html" />
         <option value="$PROJECT_DIR$/111 固定广告.html" />
         <option value="$PROJECT_DIR$/112 登陆验证.html" />
+        <option value="$PROJECT_DIR$/109 弹窗.html" />
       </list>
     </option>
   </component>
@@ -168,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512602457766</updated>
-      <workItem from="1512602461141" duration="5898000" />
+      <workItem from="1512602461141" duration="6565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5898000" />
+    <option name="totallyTimeSpent" value="6565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -217,18 +214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/109 弹窗.html">
+    <entry file="file://$PROJECT_DIR$/112 登陆验证.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/110 下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="342">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -241,10 +230,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/112 登陆验证.html">
+    <entry file="file://$PROJECT_DIR$/110 下拉菜单.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/109 弹窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
