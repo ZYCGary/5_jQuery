@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>111</title>
+    <script type="text/javascript">
+        function closeAd() {
+            var obj = document.getElementById("ad");
+            obj.style.display = "none";
+        }
+    </script>
+
+    <style type="text/css">
+        #ad {
+            width: 100px;
+            height: 100px;
+
+            position: fixed;
+            top: 100px;
+            right: 50px;
+        }
+
+        #ad a {
+            border: 1px solid red;
+            background: aliceblue;
+            text-decoration: none;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="ad">
+    <img src="images/car1.jpg" width="100">
+    <a id="close" href="#" onclick="closeAd()">Close</a>
+</div>
+</body>
+</html>

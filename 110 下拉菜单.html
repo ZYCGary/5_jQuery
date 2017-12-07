@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    
+    <script type="text/javascript">
+        function show() {
+            var obj = document.getElementById("menu_top_down");
+            obj.style.display="block";
+        }
+
+        function hide() {
+            var obj = document.getElementById("menu_top_down");
+            obj.style.display="none";
+        }
+    </script>
+    
+    <style type="text/css">
+        #menu_top_down{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div onmouseover="show()" onmouseout="hide()">
+    <a href="#" target="_self">My Dangdang</a> <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <div id="menu_top_down">
+        <a href="#">My Order</a> <br>
+        <a href="#">Account Balance</a><br>
+        <a href="#">Gift Certificate</a><br>
+        <a href="#">Member Points</a><br>
+    </div>
+</div>
+
+</body>
+</html>
