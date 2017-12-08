@@ -1,0 +1,47 @@
+<!--
+.fadeIn()
+.fadeOut()
+.fadeToggle()
+.fadeTo()
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<input type="button" value="fadeIn" id="d1">
+<input type="button" value="fadeOut" id="d2">
+<input type="button" value="fadeToggle" id="d3">
+<input type="button" value="fadeTo" id="d4">
+
+<script>
+    $("#d1").click(function () {
+        $("div").fadeIn();
+    });
+    $("#d2").click(function () {
+        $("div").fadeOut(3000);
+    });
+    $("#d3").click(function () {
+        $("div").fadeToggle();
+    });
+    $("#d4").click(function () {
+        $("div").fadeTo(3000, 0.2, function () {
+            alert("fadeTo done")
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--
+.slideDown(time, fn)
+.slideUp()
+.slideToggle()
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<input type="button" value="slideDown" id="d1">
+<input type="button" value="slideUp" id="d2">
+<input type="button" value="slideToggle" id="d3">
+
+<script>
+    $("#d1").click(function () {
+        $("div").slideDown();
+    });
+    $("#d2").click(function () {
+        $("div").slideUp(3000);
+    });
+    $("#d3").click(function () {
+        $("div").slideToggle();
+    });
+</script>
+
+</body>
+</html>

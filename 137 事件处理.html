@@ -1,0 +1,55 @@
+<!--
+事件绑定（自定义事件）
+1. 单个绑定 bind("action", fn)
+2. 多个绑定 bind({"action1":fn1, "action2":fn2})
+
+unbind()    解除全部绑定
+unbind("action")    解除指定的action绑定
+
+.on()
+.off()
+
+.one()  只会执行一次的绑定事件,执行后自动解绑
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<input type="button" value="bind/on" id="d1">
+<input type="button" value="off" id="d2">
+<input type="button" value="one" id="d3">
+
+<script>
+    /*$("input").bind("click", function () {
+        alert("This is a bind event!!");
+    });*/
+
+    /*$("div").bind("mouseover", function () {
+        $("div").html("This is mouseover");
+    })*/
+
+    /*$("div").bind({
+        "mouseover": function () {
+            $("div").html("OVER");
+        }, "mouseout": function () {
+            $("div").html("OUT");
+        }
+    })*/
+
+    /*$("#d1").on("click", function () {
+        alert("this is on");
+    })
+    $("#d2").click(function () {
+        $("#d1").off();
+    })*/
+
+    $("#d3").one("click", function () {
+        alert("one")
+    })
+</script>
+</body>
+</html>

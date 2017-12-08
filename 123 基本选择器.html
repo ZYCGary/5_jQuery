@@ -1,0 +1,42 @@
+<!--
+:first  :last
+:even   :odd    下标为奇/偶
+:eq(index)
+:gt(index)      greater than
+:lt(index)      less than
+:header
+:not(select)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<ul>
+    <li>A</li>
+    <li id="d2">B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>F</li>
+    <li>G</li>
+</ul>
+<h1>HEAD1</h1>
+<h2>HEAD2</h2>
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // $("li:first").css({background: "red"});
+        // $("li:even").css({background: "red"});
+        // $("li:eq(1)").css({background: "blue"});
+        // $("li:gt(3)").css({background: "yellow"});
+        // $("li:lt(3)").css({background: "red"});
+        $("li:not(#d2)").css({background: "red"});
+        // $(":header").css({background: "red"});
+    });
+</script>
+</body>
+</html>

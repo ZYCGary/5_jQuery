@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bff79f4c-eadc-4e49-9ba3-30c55f70ca29" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/115 JQ.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/116 基本选择器.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/118 内容选择器.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/119 注册验证.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/5_jQuery.iml" afterPath="$PROJECT_DIR$/.idea/5_jQuery.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/123 基本选择器.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/124 属性选择器.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/126 属性.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/127 css类.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/128 HTML,text,val.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/129 each遍历.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/131 DOM 内部插入.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/132 DOM外部插入.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/133 DOM操作.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/134 加载事件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/135 事件切换.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/136 事件案例.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/137 事件处理.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/139_1 查找.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/139_2 基本动画.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/140 滑动动画.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/141 淡入(出)动画.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/142 动画案例.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/109 弹窗.html" afterPath="$PROJECT_DIR$/109 弹窗.html" />
+      <change beforePath="$PROJECT_DIR$/119 注册验证.html" afterPath="$PROJECT_DIR$/119 注册验证.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,91 +35,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="109 弹窗.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/109 弹窗.html">
+      <file leaf-file-name="139_1 查找.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/139_1 查找.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="139_2 基本动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/139_2 基本动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="140 滑动动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/140 滑动动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="141 淡入(出)动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/141 淡入(出)动画.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="46" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="115 JQ.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/115 JQ.html">
+      <file leaf-file-name="142 动画案例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/142 动画案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="116 基本选择器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/116 基本选择器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="118 内容选择器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/118 内容选择器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="119 注册验证.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/119 注册验证.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="110 下拉菜单.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/110 下拉菜单.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="111 固定广告.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/111 固定广告.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="112 登陆验证.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/112 登陆验证.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="109_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/109_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="215">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -139,6 +111,25 @@
         <option value="$PROJECT_DIR$/116 选择器.html" />
         <option value="$PROJECT_DIR$/118 内容选择器.html" />
         <option value="$PROJECT_DIR$/119 注册验证.html" />
+        <option value="$PROJECT_DIR$/123 基本选择器.html" />
+        <option value="$PROJECT_DIR$/124 属性选择器.html" />
+        <option value="$PROJECT_DIR$/126 属性.html" />
+        <option value="$PROJECT_DIR$/127 css类.html" />
+        <option value="$PROJECT_DIR$/128 HTML,text,val.html" />
+        <option value="$PROJECT_DIR$/129 each遍历.html" />
+        <option value="$PROJECT_DIR$/131 DOM 内部插入.html" />
+        <option value="$PROJECT_DIR$/132 DOM外部插入.html" />
+        <option value="$PROJECT_DIR$/133 DOM操作.html" />
+        <option value="$PROJECT_DIR$/134 事件.html" />
+        <option value="$PROJECT_DIR$/134 加载事件.html" />
+        <option value="$PROJECT_DIR$/135 事件切换.html" />
+        <option value="$PROJECT_DIR$/136 事件案例.html" />
+        <option value="$PROJECT_DIR$/137 事件处理.html" />
+        <option value="$PROJECT_DIR$/139 基本动画.html" />
+        <option value="$PROJECT_DIR$/139_2 基本动画.html" />
+        <option value="$PROJECT_DIR$/140 滑动动画.html" />
+        <option value="$PROJECT_DIR$/141 淡入(出)动画.html" />
+        <option value="$PROJECT_DIR$/142 动画案例.html" />
       </list>
     </option>
   </component>
@@ -228,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512602457766</updated>
       <workItem from="1512602461141" duration="6565000" />
-      <workItem from="1512622640891" duration="7754000" />
+      <workItem from="1512622640891" duration="24181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14319000" />
+    <option name="totallyTimeSpent" value="30746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -367,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/118 内容选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="900">
           <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
@@ -375,8 +366,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/119 注册验证.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123 基本选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/124 属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/127 css类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/126 属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/128 HTML,text,val.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/129 each遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/132 DOM外部插入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/131 DOM 内部插入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133 DOM操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/134 加载事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/135 事件切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/136 事件案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/137 事件处理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/139_1 查找.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/139_2 基本动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/140 滑动动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/141 淡入(出)动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/142 动画案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>

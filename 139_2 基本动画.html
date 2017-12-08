@@ -1,0 +1,45 @@
+<!--
+.show(time, fn) fn: 回调函数--在效果完成之后执行fn
+.hide(time)
+.toggle(time)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+<input type="button" value="SHOW" id="d1">
+<input type="button" value="HIDE" id="d2">
+<input type="button" value="TOGGLE" id="d3">
+
+<script>
+    $("#d1").click(function () {
+        $("div").show(2000, function () {
+            alert("show done");
+        });
+    })
+    $("#d2").click(function () {
+        $("div").hide(4000, function () {
+            alert("hide done");
+        });
+    })
+    $("#d3").click(function () {
+        $("div").toggle();
+    })
+</script>
+
+</body>
+</html>

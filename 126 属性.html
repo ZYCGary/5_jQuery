@@ -1,0 +1,30 @@
+<!--
+查看属性    .attr("属性")
+设置属性    .attr("old", "new)
+           .attr({attr1: "new1", attr2: "new2"}
+           .attr("attr", function(){return newAttr})
+删除属性    .removeAttr("attr")
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<img src="a.jpg">
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // console.log($("img").attr("src"));
+        // $("input").attr("value", "ABCD");
+        // $("input").attr({"value": "ABCD", type:"text"});
+        /* $("input").attr("value", function () {
+             return "QWER";
+         })*/
+        $("input").removeAttr("value");
+    });
+</script>
+</body>
+</html>

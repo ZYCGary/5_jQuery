@@ -13,8 +13,11 @@
     <title>Title</title>
     <script>
         function check_submit() {
-            if (check_email() == true && check_pwd == true && check_cpwd() == true) return true;
-            else return false;
+            if (check_email() == false || check_pwd() == false || check_cpwd() == false) {
+                return false;
+            }
+            else
+                return true;
         }
 
         function focus_email() {
@@ -31,7 +34,7 @@
             if (email == "") {
                 msg.innerHTML = "Email could not be null";
                 msg.className = "msg_error";
-9                return false;
+                return false;
             } else if (email.indexOf("@") == -1) {
                 msg.innerHTML = "Email must contain \"@\"";
                 msg.className = "msg_error";
@@ -44,11 +47,44 @@
         }
 
         function check_pwd() {
-
+            var pwd = document.getElementById("pwd").value;
+            var msg = document.getElementById("pwd_msg");
+            if (pwd == "") {
+                msg.innerHTML = "Password could not be null";
+                msg.className = "msg_error";
+                return false;
+            } else if (pwd.length < 6) {
+                msg.innerHTML = "The length of password must longer than 6";
+                msg.className = "msg_error";
+                return false;
+            } else {
+                msg.innerHTML = "Password set successfully";
+                msg.className = "msg_success";
+                return true;
+            }
         }
 
         function check_cpwd() {
-
+            var pwd = document.getElementById("pwd").value;
+            var cpwd = document.getElementById("confirm_pwd").value;
+            var msg = document.getElementById("cpwd_msg");
+            if (cpwd == "") {
+                msg.innerHTML = "Password could not be null";
+                msg.className = "msg_error";
+                return false;
+            } else if (pwd != cpwd) {
+                msg.innerHTML = "Must repeat the password"
+                msg.className = "msg_error";
+                return false;
+            } else {
+                msg.innerHTML = "Password confirmed";
+                msg.className = "msg_success";
+                return true;
+            }
+        }
+        
+        function change() {
+            
         }
     </script>
 
@@ -80,14 +116,28 @@
 
         <dt><label for="pwd">Password: </label></dt>
         <dd>
-            <input type="text" id="pwd" onfocus="focus_pwd()" onblur="check_pwd()">
+            <input type="password" id="pwd" onfocus="focus_pwd()" onblur="check_pwd()">
+        </dd>
+        <dd>
+            <span id="pwd_msg"></span>
         </dd>
         <dt><label for="confirm_pwd">Confirm Password: </label></dt>
         <dd>
-            <input type="text" id="confirm_pwd">
+            <input type="password" id="confirm_pwd" onblur="check_cpwd()">
         </dd>
-        <dt></dt>
-        <dt></dt>
+        <dd>
+            <span id="cpwd_msg"></span>
+        </dd>
+        <dt><label for="province">Province: </label></dt>
+        <dt>
+            <select name="province" id="province" onchange="chage()">
+                <option value=""><--Select province--></option>
+                <option value="">Beijing</option>
+                <option value="">Shanghai</option>
+                <option value="">Tianjin</option>
+                <option value="">Wuhan</option>
+            </select>
+        </dt>
     </dl>
     <div>
         <input type="submit" id="register_btn" value="REGISTER">

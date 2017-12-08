@@ -1,0 +1,39 @@
+<!--
+html()         标签内容
+html("...")    添加html
+
+text()         标签内的文本内容
+text("...")
+
+val()
+val("...")
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div>
+    div
+    <p>Paragraph</p>
+    <a href="#">Link</a>
+</div>
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // console.log($('div').html);
+        // $("div").html("<b>BOLD</b>");
+
+        // console.log($("div").text());
+        // $("div").text("<b>New text</b>");
+
+        console.log($("input").val());
+        $("input").val("ABCD");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<img src="a.jpg">
+<img src="b.jpg">
+<img src="c.jpg">
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // $("img[src=]").css({background: "red"});
+        // $("img[src='a.jpg']").css({background: "red"});
+        // $("img[src!='a.jpg']").css({background: "red"});
+        // $("img[src^='b']").css({background: "red"});
+        // $("img[src$='pg']").css({background: "red"});
+        $("img[src*='p']").css({background: "red"});
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!--
+$(document).ready(function(){})  ==>  $(function(){})
+
+ VS onload=fn;
+ JS： 把DOM和资源加载完成后执行
+ JQ：把DOM加载后执行
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div id="div1">This is div1</div>
+
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        /*$(document).ready(function(){
+            alert("123");
+        })*/
+
+        /*$(function () {
+            alert("456");
+        })*/
+    });
+</script>
+<p>PPPPPPPP</p>
+</body>
+</html>

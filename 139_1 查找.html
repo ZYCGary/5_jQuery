@@ -1,0 +1,26 @@
+<!--
+.parent
+.find(a)
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div>
+    <a href="">Link</a>
+    <p>Paragraph</p>
+</div>
+<input type="button" value="CLICK" id="d1">
+
+<script>
+    $("input").click(function () {
+        // $("p").parent().css("background", "red");
+        $("div").find('p').css({background: "red"});
+    });
+</script>
+
+</body>
+</html>

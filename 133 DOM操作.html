@@ -1,0 +1,42 @@
+<!--
+$(a).wrap()     分别包裹
+.unwrap()       取消包裹
+$(a).wrapAll()       把所有a匹配到的元素包裹在一起
+$(a).wrapInner()       把a匹配到的元素 的内部元素 分别包裹起来 ==> 在a的下一级创建包裹，把a原本的元素包裹进去
+a.replaceWith(b) ==> b.replaceAll(a)
+
+.empty()    只删除内容，不删标签
+.remove()   删除的是所有，包括标签本身
+
+.clone()
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div id="div1">This is div1</div>
+<div id="div2">This is div2</div>
+<div>This is div3</div>
+
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        // $("div").wrap("<div></div>");
+        // $("div").wrapAll("<div></div>");
+        // $("div").wrapInner("<p></p>");
+        /*
+           $("div").replaceWith("<p>AAA</p>");
+           $("<p>AAA</p>").replaceWith("div");
+        */
+        /*$("#div1").empty();
+        $("#div1").remove();*/
+
+        $("#div1").clone().appendTo("#div2");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!--
+$(a).append($(b));
+$(b).appendTo($(a));
+prepend();
+prependTo();
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div>This is div1</div>
+
+<input type="button" value="CLICK">
+<script>
+    $("input").click(function () {
+        $("div").append("<p>This is paragraph 1</p>");
+        $("<p>This is paragraph 2</p>").appendTo($("div"));
+    });
+</script>
+</body>
+</html>
