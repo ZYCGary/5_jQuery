@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown menu</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        $(window).ready(function() {
+            var flag = 0;
+            $("button").click(function() {
+                if (flag % 2 == 0)
+                    $("#ime").css("display", "block");
+                else
+                    $("#ime").css("display", "none");
+                flag++;
+//                console.log(flag)
+            });
+            $("#close").click(function() {
+                $("#ime").css("display", "none");
+                flag = 0;
+//                console.log(flag)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="outer">
+        <button>输入法</button>
+        <ul id="ime">
+            <li><a href="javascript:;">手写</a></li>
+            <li><a href="javascript:;">拼音</a></li>
+            <li id="close"><a href="javascript:;">关闭</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alert input</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+    
+    <script>
+        $(window).ready(function(){
+            $("button").click(function(){
+                $("input").each(function(){
+                    alert($(this).attr("value"))
+                })
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <p><input type="text" value="北京市" /></p>
+    <p><input type="text" value="朝阳区" /></p>
+    <p><button>传参</button></p>
+</body>
+
+</html>

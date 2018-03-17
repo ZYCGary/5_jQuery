@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Divs turn red</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        $(window).ready(function() {
+            $("button").click(function() {
+                $("#outer div").css("background", "red");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <center><button>点击将DIV变成红色</button></center>
+    <div id="outer">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

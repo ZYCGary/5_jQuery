@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Warning</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        $(window).ready(function() {
+            $("label").mouseover(function() {
+                //                $("#tips").attr("display", "block");
+                $("#tips").css("display", "block");
+            })
+            $("label").mouseout(function() {
+                //                $("#tips").attr("display", "none");
+                $("#tips").css("display", "none");
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="outer">
+        <label><input type="checkbox" />两周内自动登陆</label>
+        <div id="tips">为了您的信息安全，请不要在网吧或公用电脑上使用此功能！</div>
+    </div>
+</body>
+</html>
