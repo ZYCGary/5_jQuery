@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alert styles</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        $(window).ready(function() {
+            $("button").click(function() {
+                $("#overlay").css("display", "block");
+                $("#win").css("display", "block");
+            })
+
+            $("#close").click(function() {
+                $("#overlay").css("display", "none");
+                $("#win").css("display", "none");
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <div id="win">
+        <h2><span id="close">×</span></h2>
+    </div>
+    <center><button>弹出层</button></center>
+</body>
+
+</html>
