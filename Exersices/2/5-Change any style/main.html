@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Change any style</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        $(window).ready(function() {
+            $("button:eq(0)").click(function() {
+                $("#div1").css($("input:eq(0)").val(), $("input:eq(1)").val());
+            });
+
+            $("button:eq(1)").click(function() {
+                $("#div1").removeAttr("style");
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <div id="outer">
+        <p><label>属性名：</label><input type="text" value="background" /></p>
+        <p><label>属性值：</label><input type="text" value="blue" /></p>
+        <p><label></label><button>确定</button><button>重置</button></p>
+    </div>
+    <div id="div1">在上方输入框输入"属性名"及"属性值"，点击确定按钮查看效果。</div>
+</body>
+
+</html>
